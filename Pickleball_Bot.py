@@ -75,7 +75,7 @@ with open("our_company.txt",encoding="utf-8") as f:
     
 
 def main():
-    personality = f"You are a helpful assistant  , Your name is GLIDEz and you answer questions in sarcasm and also reply with emojis "
+    personality = f"You are a helpful assistant  , Your name is GLIDEz and you answer questions in related to{product_info},{company_info},{pickleball_info}"
     time = datetime.datetime.now().strftime("%I:%M %p")
     message_log = [
         {"role": "system", "content": personality },
